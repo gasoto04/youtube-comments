@@ -1,12 +1,9 @@
-# youtube-comments
+# youtube-comments - Project Description
 
-## Project Description
+## Final Project Proposal
 Gabriel Andres Soto, Sam Cohen, Daniel Cardenas Sanchez
 PPOL 5203
-## Final Project Proposal
-
 ### Introduction and Research Question
-
 With the advent of the internet and the increase in Smartphone usage across the world, the speed at which individuals can now obtain information and news has never been faster. This interconnectedness comes with problems, however. The spread of misinformation, political extremism, and polarization are just a few consequential examples. This phenomenon provides researchers with a looking glass into public sentiment regarding certain issues, which can often be found in some of the darkest places on the web– Youtube’s comments sections. 
 
 Our research will attempt to answer the following research question: do individuals react differently to different types of shocking news on Youtube?  Will those comments be mostly “positive” (i.e. concerned, empathetic, well-intentioned) if the news is more serious? Will they be mostly negative (ill-intentioned, bullying, insulting)? We will also consider the following when writing our report and carrying out our analysis:
