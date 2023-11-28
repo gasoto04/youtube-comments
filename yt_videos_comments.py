@@ -32,6 +32,7 @@ def get_videos_after_ndays(api_key, query, start_date, n_days):
     df_videos_all['day'] = day_list
     df_videos_all['day_published'] = day_published_list
     df_videos_all.dropna(subset=['video_comment_count'], inplace=True) # Delete the ones with no comments
+    df_videos_all = df_videos_all.drop(df_videos_all[df_videos_all['video_comment_count'] == 0].index)
     df_videos_all['publish_date'] = pd.to_timedelta(df_videos_all['video_publish_date'], unit='s') + pd.to_datetime('1970-1-1')
     df_videos_all.set_index('video_id', inplace=True)
     return df_videos_all
