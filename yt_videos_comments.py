@@ -32,15 +32,18 @@ def get_videos_after_ndays(api_key, query, start_date, n_days):
     df_videos_all['day'] = day_list
     df_videos_all['day_published'] = day_published_list
     df_videos_all.dropna(subset=['video_comment_count'], inplace=True) # Delete the ones with no comments
-    df_videos_all = df_videos_all.drop(df_videos_all[df_videos_all['video_comment_count'] == 0].index)
+    df_videos_all = df_videos_all[df_videos_all.video_comment_count != '0']
     df_videos_all['publish_date'] = pd.to_timedelta(df_videos_all['video_publish_date'], unit='s') + pd.to_datetime('1970-1-1')
+    df_videos_all = df_videos_all.drop_duplicates(subset=['video_id'])
     df_videos_all.set_index('video_id', inplace=True)
     return df_videos_all
 
 def get_comments_all_videos(api_key, df_videos, get_replies=False):
     yt = YouTubeDataAPI(api_key)
     cxv_list = []
+    df_videos = df_videos[df_videos.video_comment_count != '0']
     df_videos['video_id'] = df_videos.index
+    df_videos = df_videos.drop_duplicates(subset=['video_id'])
     video_list = list(df_videos['video_id'])
     for video_id in video_list:
         df_comments = pd.DataFrame(yt.get_video_comments(video_id, get_replies=get_replies))
