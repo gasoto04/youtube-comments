@@ -20,7 +20,7 @@ The descriptions for each can be found below.
 #### Code
 This folder contains the Python files that were used in our analysis:
 - "Data Science 1 Final Project - Data Analysis" contains the summary statistics, hypothesis testing, and data visualizations for this project. Data was imported, wrangled, and analyzed in this file.
-- "Data Science 1 Final Project - Sentiment" was used to generate the sentiment analysis of Youtube comments necessary for our research.
+- "Data Science 1 Final Project - Sentiment" was used to generate the sentiment analysis of Youtube comments necessary for our research, using the "distilbert" model.
 - "_data_gathering" contains the code for using the Youtube API to retrieve comment and video data in the first place.
 - "yt_videos_comments" is the file that houses the functions necessary to carry out retrieving comment and video data using the Youtube API 
 The folder titled "Old" contains previous versions of the files above.
