@@ -14,6 +14,7 @@ This repository has been divided into 3 primary folders for our research:
 - Code
 - Data
 - Output
+
 The descriptions for each can be found below.
 
 #### Code
