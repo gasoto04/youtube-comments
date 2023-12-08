@@ -14,6 +14,7 @@ This repository has been divided into 3 primary folders for our research:
 - Code
 - Data
 - Output
+The descriptions for each can be found below.
 
 #### Code
 This folder contains the Python files that were used in our analysis:
@@ -26,7 +27,7 @@ The folder titled "Old" contains previous versions of the files above.
 #### Data
 This folder houses all of the raw extracted data from the Youtube API. Specifically, it contains the comment and video data for Taylor Swift dating Travis Kelce for pop news, video data for the Menendez scandal for scandalous news, and Uvalde shooting video data for horrific news. Please note that comment data for both scandalous and horrific news has been put in the "Output" folder-- the comment data and sentiment analysis were carried out both in the same file for these. 
 
-### Output
+#### Output
 This folder contains the comment sentiment analysis for all news categories. Some categories (e.g. Uvalde) have multiple sentiment analysis files. These files were concatenated with each other in the "Data Science 1 Final Project - Data Analysis" file when data analysis was being carried out. 
 
 Along with the sentiment analysis output, this folder contains a literature review which outlines previous research carried out on reactions to shocking news, sentiment analysis, and the combination of both. 
