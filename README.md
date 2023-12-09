@@ -1,8 +1,6 @@
 # youtube-comments - Project Description
-
-## Final Project Proposal
 Gabriel Andres Soto, Sam Cohen, Daniel Cardenas Sanchez
-PPOL 5203
+PPOL 5203 - Final project
 
 ### Introduction and Research Question
 With the advent of the internet and the increase in Smartphone usage across the world, the speed at which individuals can now obtain information and news has never been faster. This interconnectedness comes with problems, however. The spread of misinformation, political extremism, and polarization are just a few consequential examples. This phenomenon provides researchers with a looking glass into public sentiment regarding certain issues, which can often be found in some of the darkest places on the web– Youtube’s comments sections. 
@@ -11,7 +9,7 @@ Our research will attempt to answer the following research question: do individu
 
 ### Navigating this repository
 This repository has been divided into 3 primary folders for our research:
-- Code
+- Code -> In the folder there is a detailed README with the steps on how to use the code.
 - Data
 - Output
 
