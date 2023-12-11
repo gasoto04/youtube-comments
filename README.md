@@ -9,7 +9,7 @@ Our research will attempt to answer the following research question: do individu
 
 ### Navigating this repository
 This repository has been divided into 3 primary folders for our research:
-- Code -> In the folder there is a detailed README with the steps on how to use the code.
+- Code
 - Data
 - Output
 
@@ -22,6 +22,7 @@ This folder contains the Python files that were used in our analysis:
 - "_data_gathering" contains the code for using the Youtube API to retrieve comment and video data in the first place.
 - "yt_videos_comments" is the file that houses the functions necessary to carry out retrieving comment and video data using the Youtube API 
 The folder titled "Old" contains previous versions of the files above.
+In the folder there is also another detailed README with the steps on how to use the code.
 
 #### Data
 This folder houses all of the raw extracted data from the Youtube API. Specifically, it contains the comment and video data for Taylor Swift dating Travis Kelce for pop news, video data for the Menendez scandal for scandalous news, and Uvalde shooting video data for horrific news. Please note that comment data for both scandalous and horrific news has been put in the "Output" folder-- the comment data and sentiment analysis were carried out both in the same file for these. 
