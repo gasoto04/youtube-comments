@@ -32,13 +32,13 @@ This folder houses all of the raw extracted data from the Youtube API. Specifica
 #### Output
 This folder contains the comment sentiment analysis for all news categories. Some categories (e.g. Uvalde) have multiple sentiment analysis files. These files were concatenated with each other in the "Data Science 1 Final Project - Data Analysis" file when data analysis was being carried out. Along with the sentiment analysis output, this folder contains a literature review which outlines previous research carried out on reactions to shocking news, sentiment analysis, and the combination of both. 
 
-Other folders and files in this repository include ".env" (which contains the API keys), and ".ipynb_checkpoints" (which contains previous Python file correction checkpoints). 
-
 #### Proposal
 Contains our original project proposal. 
 
 #### Report
 Contains the final version of our report. Microsoft Word and PDF versions are available
 
+#### Misc.
+Other folders and files in this repository include ".env" (which contains the API keys), and ".ipynb_checkpoints" (which contains previous Python file correction checkpoints). 
 
 
