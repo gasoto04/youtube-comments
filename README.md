@@ -8,10 +8,12 @@ With the advent of the internet and the increase in Smartphone usage across the 
 Our research will attempt to answer the following research question: do individuals react differently to different types of shocking news on Youtube?  Will those comments be mostly “positive” (i.e. concerned, empathetic, well-intentioned) if the news is more serious? Will they be mostly negative (ill-intentioned, bullying, insulting)? We will analyze three types of shocking news ("pop", "scandalous", "horrific") that relate to chosen news stories (Taylor Swift dating Travis Kelce for "pop", the indictment of Senator Robert Menendez for "scandalous," and the Uvalde school shooting for "horrific," respectively). We will use sentiment analysis to carry out our research.
 
 ### Navigating this repository
-This repository has been divided into 3 primary folders for our research:
+This repository has been divided into 5 primary folders for our research:
 - Code
 - Data
 - Output
+- Proposal
+- Report
 
 The descriptions for each can be found below.
 
@@ -31,4 +33,12 @@ This folder houses all of the raw extracted data from the Youtube API. Specifica
 This folder contains the comment sentiment analysis for all news categories. Some categories (e.g. Uvalde) have multiple sentiment analysis files. These files were concatenated with each other in the "Data Science 1 Final Project - Data Analysis" file when data analysis was being carried out. Along with the sentiment analysis output, this folder contains a literature review which outlines previous research carried out on reactions to shocking news, sentiment analysis, and the combination of both. 
 
 Other folders and files in this repository include ".env" (which contains the API keys), and ".ipynb_checkpoints" (which contains previous Python file correction checkpoints). 
+
+#### Proposal
+Contains our original project proposal. 
+
+#### Report
+Contains the final version of our report. Microsoft Word and PDF versions are available
+
+
 
